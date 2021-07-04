@@ -235,7 +235,6 @@ top: 87%;
     margin: 20px 0 0 0;
 }
 
-
 .small-picture-text {
     color: -var(--darkblue);
     background-color: var(--lightblue);
@@ -243,7 +242,7 @@ top: 87%;
     font-size: 15px;
     width: 120px;
     top: 75%;
-    }
+}
 
 .contact-me {
     display: flex;
@@ -288,15 +287,37 @@ address a {
 }
 
 /*Media Query Desktop adjustments */
-@media screen and (max-width: 1399px) {
+@media screen and (max-width: 1399px) {  
+
     .big-picture {
         width: 100%;
     }
 
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 44%;
+    .small-picture1 {
+        width: 93%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
-  }
+    
+    .small-picture2 {
+        width: 91%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+    
+    .small-picture3 {
+        width: 93%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+    
+    .small-picture4 {
+        width: 91%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+}
 
   @media screen and (max-width: 1239px) {
     .about-me p {
@@ -307,13 +328,33 @@ address a {
         width: 100%;
     }
 
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 42%;
+    .small-picture1 {
+        width: 90%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
-  }
+    
+    .small-picture2 {
+        width: 90%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture3 {
+        width: 90%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture4 {
+        width: 90%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+}
 
   /*Media Query Tablet adjustments */
-  @media screen and (max-width: 1032px) { /*Ipad Pro (1024)*/
+  @media screen and (max-width: 1034px) { /*Ipad Pro (1024)*/
     .about-me p {
         width: 70%;
     }
@@ -326,10 +367,30 @@ address a {
     .big-picture-text {
         top: 80%;
         }
+        
+        .small-picture1 {
+            width: 88%;
+            height: 200px;
+            margin: 20px 0 0 0;
+        }
 
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 40%;
-    }
+        .small-picture2 {
+            width: 88%;
+            height: 200px;
+            margin: 20px 0 0 0;
+        }
+
+        .small-picture3 {
+            width: 88%;
+            height: 200px;
+            margin: 20px 0 0 0;
+        }
+                
+        .small-picture4 {
+            width: 88%;
+            height: 200px;
+            margin: 20px 0 0 0;
+        }
 
     address{
         margin: 0 0 0 56px;
@@ -340,9 +401,9 @@ address a {
         margin: 0 0 0 30px;
         padding: 20px 0 0 10px;
     }
-  }
+}
 
-  @media screen and (max-width: 979px) {
+@media screen and (max-width: 979px) {
     header nav ul li a {
         font-size: 20px;
     }
@@ -355,20 +416,32 @@ address a {
         width: 100%;
     }
 
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
+    .small-picture1 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+    
+    .small-picture2 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
 
-    address{
-        margin: 0 0 0 56px;
-        width: 70%;
+    .small-picture3 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
-
-    address p {
-        margin: 0 0 0 30px;
-        padding: 20px 0 0 10px;
+        
+    .small-picture4 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
+    
 }
+
 
 @media screen and (max-width: 899px) {
     header nav ul li a {
@@ -384,10 +457,32 @@ address a {
     }
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
     }
+
+    .small-picture1 {
+        width: 85%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture2 {
+        width: 85%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture3 {
+        width: 85%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture4 {
+        width: 85%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+  
 
     address{
         margin: 0 0 0 56px;
@@ -430,9 +525,30 @@ address a {
 
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 70%;
+    }
+
+    .small-picture1 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+    
+    .small-picture2 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture3 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture4 {
+        width: 86%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
 
     .contact-me {
@@ -461,7 +577,6 @@ address a {
 }
 
 /*Media Query Mobile adjustments */
-
 @media screen and (max-width: 540px) { /*Surface Duo*/
     header .header-container, header nav ul {
         justify-content: center;
@@ -511,9 +626,30 @@ address a {
 
     .big-picture-text {
         top: 65%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 70%;
+    }
+
+    .small-picture1 {
+        width: 80%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture2 {
+        width: 80%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+
+    .small-picture3 {
+        width: 80%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture4 {
+        width: 80%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
 
     .contact-me {
@@ -540,8 +676,9 @@ address a {
         padding: 20px 0 0 0;
     }
 }
-/*fix some height issues*/
+/*Vertical setup*/
 @media screen and (max-width: 470px) { /*Iphone 6/7/8 & Iphone 6/7/8 Plus */
+    
     header .header-container, header nav ul {
         justify-content: center;
     }
@@ -592,17 +729,48 @@ address a {
 
     .picture-container {
     padding: 20px 0 0 0;
+    justify-content: center;
     }
 
     .big-picture{
         flex: 1;
+        height: 250px;
     }
 
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
+    }
+    
+
+    .portfolio .small-container a {
+        width: 70%;
+    }
+
+    .small-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-picture1 {
+            width: 100%;
+            margin: 20px 0 0 0;
+    }
+    
+    .small-picture2 {
+            width: 100%;
+            margin: 20px 0 0 0;
+    }
+    
+    .small-picture3 {
+            width: 100%;
+            height: 200px;
+            margin: 20px 0 0 0;
+    }
+            
+    .small-picture4 {
+            width: 100%;
+            height: 200px;
+            margin: 20px 0 0 0;
     }
 
     .contact-me {
@@ -685,18 +853,48 @@ address a {
     }
 
     .picture-container {
-    padding: 20px 0 0 0;
-    }
-
+        padding: 20px 0 0 0;
+        justify-content: center;
+        }
+    
     .big-picture{
-        height: 200px;
+        flex: 1;
+        height: 250px;
     }
-
+    
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
+    }
+        
+    .portfolio .small-container a {
+        width: 70%;
+    }
+    
+    .small-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-picture1 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture2 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture3 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+                
+    .small-picture4 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
 
     .contact-me {
@@ -730,6 +928,7 @@ address a {
 }
 
 @media screen and (max-width: 321px) { /*Iphone 5 & SE*/
+    
     header .header-container, header nav ul {
         justify-content: center;
     }
@@ -779,18 +978,48 @@ address a {
     }
 
     .picture-container {
-    padding: 20px 0 0 0;
-    }
-
+        padding: 20px 0 0 0;
+        justify-content: center;
+        }
+    
     .big-picture{
-        height: 200px;
+        flex: 1;
+        height: 250px;
     }
-
+    
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
+    }
+        
+    .portfolio .small-container a {
+        width: 70%;
+    }
+    
+    .small-container {
+        margin: 0;
+        padding: 0;
+    }
+
+    .small-picture1 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture2 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture3 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+                
+    .small-picture4 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
     }
 
     .contact-me {
@@ -818,12 +1047,13 @@ address a {
     }
 
     address a {
-        font-size: 12px;
+        font-size: 11px;
     }
 
 }
 
-@media screen and (max-width: 321px) { /*Galaxy Fold*/
+@media screen and (max-width: 280px) { /*Galaxy Fold*/
+    
     header .header-container, header nav ul {
         justify-content: center;
     }
@@ -872,21 +1102,57 @@ address a {
         text-align: center;
     }
 
+    .big-picture-container {
+        margin: 0;
+        width: 100%;
+    }
+
     .picture-container {
-    padding: 20px 0 0 0;
+        padding: 20px 0 0 0;
+        justify-content: center;
     }
-
+    
     .big-picture{
-        height: 200px;
+        background-position: initial;
+        margin: 0 30px;
+        flex: 1;
+        height: 250px;
     }
-
+    
     .big-picture-text {
         top: 70%;
-        }
-    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
-        width: 60%;
+    }
+        
+    .portfolio .small-container a {
+        width: 70%;
+    }
+    
+    .small-container {
+        margin: 0;
+        padding: 0;
     }
 
+    .small-picture1 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture2 {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+        
+    .small-picture3 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
+                
+    .small-picture4 {
+        width: 100%;
+        height: 200px;
+        margin: 20px 0 0 0;
+    }
     .contact-me {
         justify-content: center;
     }
@@ -912,7 +1178,7 @@ address a {
     }
 
     address a {
-        font-size: 9px;
+        font-size: 8.5px;
     }
 
 }
