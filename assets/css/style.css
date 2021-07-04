@@ -88,7 +88,7 @@ body {
     background-size: cover;
     width: 200px;
     height: 200px;
-    border: 4px solid green;
+    border: 4px solid blue;
     border-radius: 50%;;
 }
 
@@ -138,14 +138,23 @@ body {
     font-weight: bold;
 }
 
+.big-picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
 .big-picture {
     background-image: url(../images/run-buddy.png);
     background-size: cover;
     background-position: initial;
+    justify-content: space-evenly;
     border: 4px solid var(--lightblue);
     margin: 0 50px;
-    width: 90vw;
-    height: 40vw;
+    width: 100%;
+    height: 30vw;
     opacity: 80%;
 }
 
@@ -159,17 +168,8 @@ background-color: var(--lightblue);
 position: relative;
 font-size: 20px;
 width: 120px;
-top: 90%;
+top: 87%;
 }
-
-.small-picture-text {
-    color: -var(--darkblue);
-    background-color: var(--lightblue);
-    position: relative;
-    font-size: 15px;
-    width: 120px;
-    top: 75%;
-    }
 
 .small-container {
     display: flex;
@@ -179,17 +179,59 @@ top: 90%;
     justify-content: space-evenly;
 }
 
-
-.small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+.small-picture1 {
     background-image: url(../images/run-buddy.png);
     background-size: cover;
     background-position: initial;
     border: 4px solid var(--lightblue);
     opacity: 80%;
-    width: 580px;
+    width: 44%;
     height: 200px;
     margin: 20px 0 0 0;
 }
+
+.small-picture2 {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    background-position: initial;
+    border: 4px solid var(--lightblue);
+    opacity: 80%;
+    width: 44%;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+.small-picture3 {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    background-position: initial;
+    border: 4px solid var(--lightblue);
+    opacity: 80%;
+    width: 44%;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+.small-picture4 {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    background-position: initial;
+    border: 4px solid var(--lightblue);
+    opacity: 80%;
+    width: 44%;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+
+.small-picture-text {
+    color: -var(--darkblue);
+    background-color: var(--lightblue);
+    position: relative;
+    font-size: 15px;
+    width: 120px;
+    top: 75%;
+    }
 
 .contact-me {
     display: flex;
@@ -231,5 +273,635 @@ address p {
 
 address a {
     color: var(--bluefont);
+}
+
+/*Media Query Desktop adjustments */
+@media screen and (max-width: 1399px) {
+    .big-picture {
+        width: 100%;
+    }
+
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 44%;
+    }
+  }
+
+  @media screen and (max-width: 1239px) {
+    .about-me p {
+        width: 75%;
+    }
+
+    .big-picture {
+        width: 100%;
+    }
+
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 42%;
+    }
+  }
+
+  /*Media Query Tablet adjustments */
+  @media screen and (max-width: 1032px) { /*Ipad Pro (1024)*/
+    .about-me p {
+        width: 70%;
+    }
+
+    .big-picture {
+        height: 30vw;
+        width: 100%;
+    }
+
+    .big-picture-text {
+        top: 80%;
+        }
+
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 40%;
+    }
+
+    address{
+        margin: 0 0 0 56px;
+        width: 80%;
+    }
+
+    address p {
+        margin: 0 0 0 30px;
+        padding: 20px 0 0 10px;
+    }
+  }
+
+  @media screen and (max-width: 979px) {
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .about-me p {
+        width: 70%;
+    }
+
+    .big-picture {
+        width: 100%;
+    }
+
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    address{
+        margin: 0 0 0 56px;
+        width: 70%;
+    }
+
+    address p {
+        margin: 0 0 0 30px;
+        padding: 20px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 899px) {
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .about-me p {
+        width: 70%;
+    }
+
+    .big-picture {
+        width: 100%;
+    }
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    address{
+        margin: 0 0 0 56px;
+        width: 70%;
+    }
+
+    address p {
+        margin: 0 0 0 30px;
+        padding: 20px 0 0 10px;
+    }
+}
+
+@media screen and (max-width: 768px) { /*Ipad*/
+    header nav ul li a {
+        font-size: 20px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        padding: 20px 0 0 0;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 70%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 0 0 56px;
+        width: 80%;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 30px;
+        padding: 20px 0 0 10px;
+    }
+}
+
+/*Media Query Mobile adjustments */
+
+@media screen and (max-width: 540px) { /*Surface Duo*/
+    header .header-container, header nav ul {
+        justify-content: center;
+        }
+
+    header h1 {
+        margin: 0;
+    }
+
+    header div {
+        justify-content: center;
+        padding: 0 0 10px 0;
+        background-color: var(--darkblue);
+    }
+
+    header nav {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        margin: 0 0 0 5px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        padding: 20px 0 0 0;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture-text {
+        top: 65%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 70%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 0 0 56px;
+        width: 80%;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 30px;
+        padding: 20px 0 0 0;
+    }
+}
+/*fix some height issues*/
+@media screen and (max-width: 470px) { /*Iphone 6/7/8 & Iphone 6/7/8 Plus */
+    header .header-container, header nav ul {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 0 30px;
+    }
+
+    header div {
+        justify-content: center;
+        padding: 0 0 10px 0;
+        background-color: var(--darkblue);
+    }
+
+    header nav {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 20px;
+        margin: 0 0 0 5px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        margin: 0 56px;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        margin: 0 56px;
+        padding: 20px 0 0 0;
+    }
+
+    .hero-container {
+        font-size: 25px;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture{
+        flex: 1;
+    }
+
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 56px 0 56px;
+        width: auto;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 0;
+        padding: 20px 0 0 0;
+    }
+
+    address a {
+        font-size: 17px;
+    }
+
+}
+
+@media screen and (max-width: 376px) { /*Iphone X*/
+    header .header-container, header nav ul {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 0 30px;
+    }
+
+    header div {
+        justify-content: center;
+        padding: 0 0 10px 0;
+        background-color: var(--darkblue);
+    }
+
+    header nav {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+        margin: 0 0 0 5px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        margin: 0 56px;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        margin: 0 56px;
+        padding: 20px 0 0 0;
+    }
+
+    .hero-container {
+        font-size: 22px;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture{
+        height: 200px;
+    }
+
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 56px 0 56px;
+        width: auto;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 0;
+        padding: 20px 0 0 0;
+    }
+
+    address a {
+        font-size: 13px;
+    }
+
+}
+
+@media screen and (max-width: 321px) { /*Iphone 5 & SE*/
+    header .header-container, header nav ul {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 0 30px;
+    }
+
+    header div {
+        justify-content: center;
+        padding: 0 0 10px 0;
+        background-color: var(--darkblue);
+    }
+
+    header nav {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 18px;
+        margin: 0 0 0 5px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        margin: 0 56px;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        margin: 0 56px;
+        padding: 20px 0 0 0;
+    }
+
+    .hero-container {
+        font-size: 22px;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture{
+        height: 200px;
+    }
+
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 56px 0 56px;
+        width: auto;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 0;
+        padding: 20px 0 0 0;
+    }
+
+    address a {
+        font-size: 12px;
+    }
+
+}
+
+@media screen and (max-width: 321px) { /*Galaxy Fold*/
+    header .header-container, header nav ul {
+        justify-content: center;
+    }
+
+    header h1 {
+        padding: 0 10px;
+    }
+
+    header div {
+        justify-content: center;
+        padding: 0 0 10px 0;
+        background-color: var(--darkblue);
+    }
+
+    header nav {
+        margin: 0;
+    }
+
+    header nav ul li a {
+        font-size: 15px;
+        margin: 0 0 0 5px;
+    }
+
+    .about-me .title, .portfolio .title {
+        text-align: center;
+        border: none;
+        width: 100%;
+        margin: 0 56px;
+        border-bottom: 4px solid var(--bluefont);
+    }
+
+    .about-me{
+        justify-content: center;
+    }
+    .about-me p {
+        width: 80%;
+        margin: 0 56px;
+        padding: 20px 0 0 0;
+    }
+
+    .hero-container {
+        font-size: 18px;
+    }
+
+    .portfolio {
+        text-align: center;
+    }
+
+    .picture-container {
+    padding: 20px 0 0 0;
+    }
+
+    .big-picture{
+        height: 200px;
+    }
+
+    .big-picture-text {
+        top: 70%;
+        }
+    .small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+        width: 60%;
+    }
+
+    .contact-me {
+        justify-content: center;
+    }
+    .contact-me div {
+        left: 0;
+    }
+
+    .contact-me h2 {
+       text-align: center;
+       width: 300px;
+    }
+
+    address{
+        margin: 0 56px 0 56px;
+        width: auto;
+        border:none;
+        border-top: 4px solid var(--bluefont);
+    }
+
+    address p {
+        margin: 0 0 0 0;
+        padding: 20px 0 0 0;
+    }
+
+    address a {
+        font-size: 9px;
+    }
+
 }
 
