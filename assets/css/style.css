@@ -1,0 +1,235 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --darkblue: #31343D;
+    --lightblue: #92CCCD;
+    --background: #EDEDF6;
+    --bluefont: #445876;
+}
+
+header .header-container, header nav ul {
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+}
+
+header div {
+    background-color: var(--darkblue);
+}
+
+header h1 {
+    background-color: var(--lightblue);
+    padding: 0px 10px 0px 70px;
+    margin: 10px 0 10px 0;
+}
+
+header h1 a {
+    text-decoration: none;
+    color: var(--darkblue);
+    font-size: 40px;
+}
+
+header nav {
+    margin: 10px 70px 0 10px;
+}
+
+header nav ul li {
+    list-style: none;
+}
+
+header nav ul li a {
+    text-decoration: none;
+    color: var(--lightblue);
+    font-size: 24px;
+    padding: 0 0 5px 5px;
+    margin: 0 0 0 10px;
+    border-bottom: 4px solid var(--lightblue);
+}
+
+.hero {
+    background-image: url(../images/hero.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-items: center;
+    height: 180px;
+}
+
+.hero-container {
+    background-color: var(--lightblue);
+    font-size: 30px;
+    font-weight: bold;
+    position: relative;
+    top: 25%;
+    padding: 5px 5px;
+    margin: 0 70px 0 0;
+    height: 40px;
+}
+
+body {
+    background-color: var(--background);
+}
+
+.profile-image {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 30px 0 0 0;
+}
+
+.profile-image-container {
+    background-image: url(../images/Profile_Picture.jpg);
+    background-size: cover;
+    width: 200px;
+    height: 200px;
+    border: 4px solid green;
+    border-radius: 50%;;
+}
+
+.portfolio {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 30px 0 0 0;
+}
+
+.about-me .title, .portfolio .title {
+    text-align: right;
+    padding: 0 20px 0 0;
+    margin: 0 10px 0 60px;
+    font-size: 40px;
+    color: var(--bluefont);
+    width: 140px;
+    border-right: 4px solid var(--bluefont);
+}
+
+.about-me{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    margin: 20px 0 0 0;
+}
+
+.about-me p {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    color: var(--bluefont);
+    font-size: 24px;
+    width: 80%;
+    padding: 0 0 0 50px;
+}
+
+.picture-container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 85vw;
+    flex: 1;
+    height: auto;
+}
+
+.project-title {
+    font-weight: bold;
+}
+
+.big-picture {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    background-position: initial;
+    border: 4px solid var(--lightblue);
+    margin: 0 50px;
+    width: 90vw;
+    height: 40vw;
+    opacity: 80%;
+}
+
+.big-picture:hover, .small-picture1:hover, .small-picture2:hover, .small-picture3:hover, .small-picture4:hover   {
+    opacity: 100%;
+}
+
+.big-picture-text {
+color: -var(--darkblue);
+background-color: var(--lightblue);
+position: relative;
+font-size: 20px;
+width: 120px;
+top: 90%;
+}
+
+.small-picture-text {
+    color: -var(--darkblue);
+    background-color: var(--lightblue);
+    position: relative;
+    font-size: 15px;
+    width: 120px;
+    top: 75%;
+    }
+
+.small-container {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    width: 100%;
+    justify-content: space-evenly;
+}
+
+
+.small-picture1, .small-picture2, .small-picture3, .small-picture4 {
+    background-image: url(../images/run-buddy.png);
+    background-size: cover;
+    background-position: initial;
+    border: 4px solid var(--lightblue);
+    opacity: 80%;
+    width: 580px;
+    height: 200px;
+    margin: 20px 0 0 0;
+}
+
+.contact-me {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.contact-me h2{
+    text-align: right;
+    font-size: 40px;
+    color: var(--bluefont);
+    width: 140px;
+}
+
+.contact-me div {
+    position: relative;
+    left: 30px;
+
+}
+
+address{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    border-left:4px solid var(--bluefont);
+    font-size: 20px;
+    margin: 0 0 0 56px;
+    color: var(--bluefont);
+    width: auto;
+}
+
+address p {
+    margin: 0 0 0 30px;
+    padding: 20px 20px;
+    text-decoration: underline;
+    font-weight: bold;
+    font-style: normal;
+}
+
+address a {
+    color: var(--bluefont);
+}
+
