@@ -1,5 +1,5 @@
 # Code HTML Portfolio with Advanced CSS Code
-According to the Challenge the HTML code and CSS code were reviewed to add any missing functionality and to optimize the code by removing redundant fragments of code and consolidation them into a single class. See check list below <br/>
+According to the Challenge we had to code a website using our advanced CSS and HTML knowledge learned in module 2 (Flexboxes media-queries,). Website is desinged order to act as a porfolio that will showcase our work. Website had to be responsive to multiple screen resolutions and adjust accordingly.<br/>
 
 ### Check List
 - [✓] Add HTML semantics.
@@ -37,5 +37,5 @@ To see the webpage in brower please click the following link: <br/>
 ## Portfolio web site preview
 ![alt Portfolio web page preview](./assets/images/portfolio.png)
 
-## Portfolio web site preview
+## Portfolio mobile site preview
 ![alt Portfolio web page preview](./assets/images/portfolio-375px.png)
