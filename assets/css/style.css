@@ -164,8 +164,8 @@ body {
 }
 
 .big-picture {
-    background-image: url(../images/run-buddy.png);
-    background-size: cover;
+    background-image: url(../images/Trivia-phase1.jpg);
+    background-size:cover;
     background-position: initial;
     justify-content: space-evenly;
     border: 4px solid var(--lightblue);
@@ -185,7 +185,7 @@ background-color: var(--lightblue);
 position: relative;
 font-size: 20px;
 width: 120px;
-top: 87%;
+top: 70%;
 }
 
 .small-container {
@@ -197,7 +197,7 @@ top: 87%;
 }
 
 .small-picture1 {
-    background-image: url(../images/portfolio.png);
+    background-image: url(../images/Highscore.png);
     background-size: cover;
     background-position: initial;
     border: 4px solid var(--lightblue);
@@ -230,7 +230,7 @@ top: 87%;
 }
 
 .small-picture4 {
-    background-image: url(../images/portfolio.png);
+    background-image: url(../images/dashboard_imperial.png);
     background-size: cover;
     background-position: initial;
     border: 4px solid var(--lightblue);
@@ -370,7 +370,7 @@ address a {
     }
 
     .big-picture-text {
-        top: 80%;
+        top: 65%;
         }
         
         .small-picture1 {
@@ -461,7 +461,7 @@ address a {
         width: 100%;
     }
     .big-picture-text {
-        top: 70%;
+        top: 60%;
     }
 
     .small-picture1 {
@@ -529,7 +529,7 @@ address a {
     }
 
     .big-picture-text {
-        top: 70%;
+        top: 53%;
     }
 
     .small-picture1 {
@@ -630,7 +630,8 @@ address a {
     }
 
     .big-picture-text {
-        top: 65%;
+        top: 60%;
+        font-size: 12px;
     }
 
     .small-picture1 {
@@ -743,7 +744,7 @@ address a {
     }
 
     .big-picture-text {
-        top: 70%;
+        top: 75%;
     }
     
 
@@ -868,7 +869,7 @@ address a {
     }
     
     .big-picture-text {
-        top: 70%;
+        top: 75%;
     }
         
     .portfolio .small-container a {
@@ -993,7 +994,7 @@ address a {
     }
     
     .big-picture-text {
-        top: 70%;
+        top: 75%;
     }
         
     .portfolio .small-container a {
@@ -1125,7 +1126,7 @@ address a {
     }
     
     .big-picture-text {
-        top: 70%;
+        top: 75%;
     }
         
     .portfolio .small-container a {
